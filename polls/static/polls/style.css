@@ -1,0 +1,19 @@
+li{
+    list-style: none;
+    color:green;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color:green;
+    font-weight:bold;
+}
+strong{
+    color:red;
+}
+body{
+    
+    background: white url("images/vote.jpg") no-repeat right top;
+}
