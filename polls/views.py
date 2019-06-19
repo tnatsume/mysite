@@ -17,7 +17,7 @@ class IndexView(generic.ListView):
         """Return the last 5 published questions"""
         return Question.objects.filter(
                 pub_date__lte=timezone.now()
-        ).order_by('-pub_date')[:5]
+        ).order_by('-id')[:5]
 
 
 class DetailView(generic.DetailView):
