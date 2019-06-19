@@ -10,8 +10,8 @@ a:hover{
     color:green;
     font-weight:bold;
 }
-strong{
-    color:red;
+.strong{
+    color:green;
 }
 body{
     
